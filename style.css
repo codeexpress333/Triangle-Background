@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+}
+
+.box::after {
+    position: absolute;
+    content: '';
+    border-top: 100vh solid #089bf7;
+    border-right: 100vw solid transparent;
+    width: 0;
+}
+
